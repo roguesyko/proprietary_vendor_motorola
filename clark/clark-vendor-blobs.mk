@@ -94,6 +94,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890_voice_table.preset:system/etc/firmware/right.tfa9890_voice_table.preset \
     vendor/motorola/clark/proprietary/etc/firmware/vrgain.bin:system/etc/firmware/vrgain.bin \
     vendor/motorola/clark/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/motorola/clark/proprietary/bin/location-mq:system/bin/location-mq \
+    vendor/motorola/clark/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
+    vendor/motorola/clark/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/motorola/clark/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/motorola/clark/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/motorola/clark/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
