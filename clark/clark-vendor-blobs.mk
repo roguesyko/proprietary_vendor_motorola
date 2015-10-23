@@ -17,6 +17,8 @@
 PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/bin/adspd:system/bin/adspd \
     vendor/motorola/clark/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/motorola/clark/proprietary/lib64/libadspd.so:system/lib64/libadspd.so \
+    vendor/motorola/clark/proprietary/lib/libadspd.so:system/lib/libadspd.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
     vendor/motorola/clark/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libmdsprpc.so:system/vendor/lib64/libmdsprpc.so \
@@ -64,6 +66,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/etc/acdbdata/Handset_cal.acdb:system/etc/acdbdata/Handset_cal.acdb \
     vendor/motorola/clark/proprietary/etc/acdbdata/Hdmi_cal.acdb:system/etc/acdbdata/Hdmi_cal.acdb \
     vendor/motorola/clark/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
+    vendor/motorola/clark/proprietary/etc/firmware/florida-dsp2-aov-frontend.wmfw:system/etc/firmware/florida-dsp2-aov-frontend.wmfw \
+    vendor/motorola/clark/proprietary/etc/firmware/florida-dsp3-aov-control.wmfw:system/etc/firmware/florida-dsp3-aov-control.wmfw \
     vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890.music.config:system/etc/firmware/left.tfa9890.music.config \
     vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890.music.eq:system/etc/firmware/left.tfa9890.music.eq \
     vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890.ringtone.config:system/etc/firmware/left.tfa9890.ringtone.config \
@@ -559,7 +563,4 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/lib/libactuator_mot_lc898212xd_camcorder.so:system/vendor/lib/libactuator_mot_lc898212xd_camcorder.so \
     vendor/motorola/clark/proprietary/vendor/lib/libactuator_mot_lc898212xd_camera.so:system/vendor/lib/libactuator_mot_lc898212xd_camera.so \
     vendor/motorola/clark/proprietary/vendor/lib/libactuator_mot_lc898212xd.so:system/vendor/lib/libactuator_mot_lc898212xd.so \
-    vendor/motorola/clark/proprietary/lib/libmot_lux_standardization.so:system/lib/libmot_lux_standardization.so \
-    vendor/motorola/clark/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
-    vendor/motorola/clark/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
-    vendor/motorola/clark/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml
+    vendor/motorola/clark/proprietary/lib/libmot_lux_standardization.so:system/lib/libmot_lux_standardization.so
