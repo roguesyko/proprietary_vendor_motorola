@@ -37,6 +37,7 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt privileged APKs
 PRODUCT_PACKAGES += \
+    CNEService \
     com.qualcomm.location \
     qcrilmsgtunnel
 
