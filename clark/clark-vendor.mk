@@ -41,3 +41,7 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location \
     qcrilmsgtunnel
 
+# Prebuilt multilibs
+PRODUCT_PACKAGES += \
+    libtime_genoff.so
+
